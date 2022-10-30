@@ -2,6 +2,8 @@
 
 This help you to create your cv. Currently underdevelopment.
 
+[Live preveiw](https://akhilbisht798.github.io/CV/)
+
 ![Demo](./src/img/cv_output.png "Demo")
 
 ## tech Stack used
