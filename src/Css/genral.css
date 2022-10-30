@@ -1,0 +1,20 @@
+#genral {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#genral>label {
+    width: 70%;
+}
+
+#genral>label>input,
+#genral>label>textarea {
+    width: 90%;
+    margin: 0.3rem;
+}
+
+#genral>label>textarea {
+    height: 6.5rem;
+}

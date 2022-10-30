@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form>label {
+    width: 70%;
+}
+
+.form>label>input,
+.form>label>textarea {
+    width: 90%;
+    margin: 0.3rem;
+}
+
+.form>label>textarea {
+    height: 6.5rem;
+}

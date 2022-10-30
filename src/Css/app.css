@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-group {
+    padding: 1.25rem;
+}
+
+.form-inside {
+    border: 2px solid black;
+    padding: 1.25rem;
+}
+
+.cv-output {
+    padding: 1.25rem;
+}
+
+.cv-inside {
+    border: 2px solid black;
+    padding: 1.25rem;
+}
