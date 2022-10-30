@@ -2,6 +2,8 @@
 
 This help you to create your cv. Currently underdevelopment.
 
+![Demo](./src/img/cv_output.png "Demo")
+
 ## tech Stack used
 - React
 - javascript

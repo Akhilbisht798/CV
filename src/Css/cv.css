@@ -1,3 +1,44 @@
-#id {
-    padding: .5rem;
+:root {
+    --dark-green: #195c70;
+    --light-green: #81aebb;
+    --blue: #377ea4;
+}
+
+#cv {
+    padding: 0.5rem;
+}
+
+#cv-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--light-green);
+}
+
+.cv-personal-name {
+    color: var(--dark-green);
+    font-weight: 500;
+}
+
+.details-logo-container {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 0.5rem;
+}
+
+.details-logo {
+    display: inline;
+    float: right;
+    width: 1rem;
+    height: 1rem;
+}
+
+.cv-edu-pra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid var(--blue);
+}
+
+.company-Name-cv {
+    font-weight: bold;
 }

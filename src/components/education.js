@@ -38,6 +38,7 @@ class Education extends React.Component {
 
         return (
             <div id="education">
+                <h4>Eduaction</h4>
                 {ht}
                 <button className="btn btn-primary" onClick={this.props.addEdu}>Add</button>
             </div>

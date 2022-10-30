@@ -39,6 +39,7 @@ class Practical extends React.Component {
 
         return (
             <div id="practical">
+                <h4>Practical</h4>
                 {ht}
                 <button className="btn btn-primary" onClick={this.props.addPrac}>Add</button>
             </div>
